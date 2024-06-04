@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <main className='grid grid-cols-[20%_auto] grid-rows-2'>
-      <div className='row-start-1 row-end-2 col-span-2'>
+      <div className='row-start-1 row-end-2 col-start-2 col-end-3'>
         <Navbar />
       </div>
       <div className='row-start-2 row-end-3 col-span-1'>
